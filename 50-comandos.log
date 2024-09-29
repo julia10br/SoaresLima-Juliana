@@ -1,0 +1,50 @@
+Las penas y las vaquitas
+Se van por la misma senda
+Las penas son de nosotros
+Las vaquitas son ajenas
+Las penas son de nosotros
+Las vaquitas son ajenas
+
+Y prendido a la magia de los caminos
+El arriero va, el arriero va" > El-arriero.txt
+   35  head El-arriero.txt | wc -l
+   36  head -n 2 El-arriero.txt | tr 'e' 'X
+cat El-arriero.txt | tr ' ' '\n'
+cat El-arriero.txt | tr ' ' '\n' > El-arriero-palabras.txt
+wc [El-arriero.txt]
+head El-arriero.txt | wc [El-arriero]
+head El-arriero.txt | wc [El-arriero.txt]
+cd Prueba2
+head -n 2 El-arriero.txt | tr 'e' 'X
+   37  cat El-arriero.txt | tr ' ' '\n'
+   38  cat El-arriero.txt | tr ' ' '\n' > El-arriero-palabras.txt
+   39  wc [El-arriero.txt]
+   40  head El-arriero.txt | wc [El-arriero]
+   41  head El-arriero.txt | wc [El-arriero.txt]
+   42  cd Prueba2
+   43  history
+   44  wc -w El-arriero.txt
+   45  grep -i "autor" El-arriero.txt
+   46  grep -i "autor" El-arriero.txt
+   47  tr -c '[:alnum:]' '[\n]' < El-arriero.txt | tr '[:upper:]' '[:lower:]' | grep -v '^$' | sort | uniq -c | sort -nr > El-arriero-palabras-decreciente.lst
+   48  tr -c '[:alnum:]' '[\n]'
+   49  tr '[:upper:]' '[:lower:]'
+   50  cat El-arriero.txt| sort | uniq -c
+   51  head -n 2 El-arriero.txt | tr 'e' "X"
+   52  head -n 5 El-arriero-palabras.txt
+   53  tail -n 2 El-arriero.txt
+   54  wc -w El-arriero.txt
+   55  head El-arriero.txt | w -1
+   56  head El-arriero.txt | wc -l
+   57  head El-arriero.txt -w -l -c
+   58  head El-arriero.txt |-w
+   59  wc El-arriero.txt
+   60  -w El-arriero
+   61  w El-arriero.txt
+   62  man
+   63  man -w
+   64  El-arriero-palabras-decreciente.lst
+   65  tr -c '[:alnum:]' '[\n]' < El-arriero.txt | tr '[:upper:]' '[:lower:]' | grep -v '^$' | sort | uniq -c | sort -nr > El-arriero-palabras-decreciente.lst
+   66  wc -w El-arriero.txt
+   67  grep -o -i "vaquitas" El-arriero.txt | wc -l
+   68  history | tail -n 50 > 50-comandos.log
